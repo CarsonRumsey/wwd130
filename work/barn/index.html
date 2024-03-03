@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet"href="./styles/larger.css">
+ 
+
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@500&display=swap" rel="stylesheet">
+
+
+    
+    <title>Oxe barns</title>
+</head>
+<!---->
+<body>
+    <header>    
+        <div class="position-relative">
+          <img class="img-fluid" src="./img/home/IMG_6227.jpg" alt="">
+          <div class="position-absolute top-0 start-0 p-5">
+            <div class="text-white">
+              <h1 class="mb-3 h1-font" >Oxe Barns</h1>
+              <p class="lead h2-font">At our pole barn company, our mission is to provide<br>high-quality, durable, and cost-effective pole barns to our customers. <br>We are committed to delivering exceptional customer service and providing <br>personalized solutions that meet the unique needs and preferences<br> of each of our clients</p>
+      
+              <h2 class="h1-font">Call Us Now</h2>
+              <p>801-458-6203</p>
+      
+              <div class="button-container">
+                <button class="btn btn-dark btn-lg" id="why-us-btn">Why Us</button>
+                <button class="btn btn-dark btn-lg" id="build-it-btn">Build it Yourself</button>
+                <button class="btn btn-dark btn-lg" id="gallery-btn">Gallery</button>
+                <button class="btn btn-dark btn-lg" id="contact-us-btn">Contact Us</button>
+                
+              </div>
+      
+            </div>
+          </div>
+        </div>
+<!---->        
+          <script>
+            window.onload = () => {
+            // Get the button element
+            const whyUsBtn = document.querySelector('#why-us-btn');
+          
+            // Get the section element
+            const whyUsSection = document.querySelector('#why-us-section');
+          
+            // Add a click event listener to the button
+            whyUsBtn.addEventListener('click', () => {
+              // Scroll to the section element
+              whyUsSection.scrollIntoView({
+                behavior: 'smooth'
+              });
+            });
+          
+            const buildItBtn = document.querySelector('#build-it-btn');
+          
+          // Get the section element
+          const buildItSection = document.querySelector('#build-it-section');
+        
+          // Add a click event listener to the button
+          buildItBtn.addEventListener('click', () => {
+            // Scroll to the section element
+            buildItSection.scrollIntoView({
+              behavior: 'smooth'
+             });
+            });
+       const contactBtn = document.querySelector('#contact-us-btn');
+      
+      // Get the section element
+      const contactSection = document.querySelector('#contact-us-section');
+      
+      // Add a click event listener to the button
+      contactBtn.addEventListener('click', () => {
+        // Scroll to the section element
+        contactSection.scrollIntoView({
+          behavior: 'smooth'
+         });
+        });
+        const galleryBtn = document.querySelector('#gallery-btn');
+      
+      // Get the section element
+      const gallerySection = document.querySelector('#gallery-section');
+      
+      // Add a click event listener to the button
+      galleryBtn.addEventListener('click', () => {
+        // Scroll to the section element
+        gallerySection.scrollIntoView({
+          behavior: 'smooth'
+         });
+        });
+      }
+      </script>
+      </header>
+      
+<!---->
+<section class="info-bar">
+</section>
+
+<section class="grab">
+    <div class="box-shadow">
+    <img class="img-fluid"  src="./img/home/IMG_5537.jpg" alt="">
+    </div>
+<!---->    
+    <div class="box-shadow text-box">
+        <h1 class="h1-info h1-font" id="why-us-section">Why us</h1>
+        <p class="why-us h2-font">     Here at oxe barns we are proud to offer high-quality barn kits that are designed to meet your 
+            every need. Our kits are perfect for a variety of purposes, whether you are looking for a new 
+            space for your animals, a workshop, a storage shed, or a cozy living area.<br><br>
+                    At our company, we understand that each customer has unique needs and preferences, and we 
+            strive to provide personalized service that exceeds your expectations. Our team of experienced 
+            professionals will work with you every step of the way, from selecting the perfect kit to 
+            customizing it to your exact specifications.</p>
+    </div>
+<!---->    
+    <div class="box-shadow">
+    <img class="img-fluid" src="./img/home/IMG_6233.jpg" alt="">
+    </div>
+<!---->
+    <div class="box-shadow text-box">
+        <h1 class="h1-info h1-font" id="build-it-section">Build It Yourself</h1>
+        <p class="why-us h2-font">      We are committed to using only the finest materials and construction techniques, ensuring that 
+            your barn kit is built to last. Our kits are designed to be easy to assemble, with clear instructions 
+            and all the necessary components included<br><br>
+                    We offer a wide range of sizes and styles to choose from, and we are happy to work with you to 
+            create a completely custom design if that is what you need. No matter what your goals are for 
+            your new barn, we are confident that we can help you achieve them.<br><br>
+                    Thank you for considering our company for your barn kit needs. We look forward to working 
+            with you and helping you create the perfect barn for your needs.</p>
+            <div class="1-grid">
+<!--
+              <div class="container">
+                <h1>Image Gallery</h1>
+                <div class="row">
+                    <div class="col-md-4 mb-3 your-self-grid" >
+                        <button class="btn btn-dark btn-lg h1-font" id="button1" onclick="showImage('./img/Build it Yourself/Screenshot 2023-03-07 112830.png', './img/Build it Yourself/Screenshot 2023-03-07 112733.png')">Legend</button>
+                        <button class="btn btn-dark btn-lg h1-font"> stuff</button>
+                        <button class="btn btn-dark btn-lg h1-font">more stuff</button>
+                    </div>
+                    
+                </div>
+            </div>
+        
+            <div class="overlay" id="overlay">
+                <span class="close-btn" onclick="closeImage()">x</span>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./img/Build it Yourself/Screenshot 2023-03-07 112733.png" alt="" id="img1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./img/Build it Yourself/Screenshot 2023-03-07 112830.png" alt="" id="img2">
+                    </div>
+                </div>
+-->
+    </div>
+</section>
+<!---->
+<section class="slider" id="gallery-section">
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides" id="slides">
+          <div class="numbertext">1 / 6</div>
+            <img src="./img/home/IMG_1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="./img/home/IMG_2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="./img/home/IMG_3.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="./img/home/IMG_42.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="./img/home/IMG_5.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="./img/home/IMG_6.jpg" style="width:100%">
+        </div>
+         
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Oxe Barns">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Oxe Barns">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Oxe Barns">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_42.jpg" style="width:100%" onclick="currentSlide(4)" alt="Oxe Barns">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Oxe Barns">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./img/home/IMG_6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Oxe Barns">
+    </div>
+  </div>
+</div>
+<div class="click"><p class="text-center"><a href="Gallery.html"><button class="btn btn-dark btn-lg mx-auto" id="why-us-btn">Click here for more pictures</button>
+</a></p> 
+</div>
+</section>
+<!---->
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    function showImage(img1, img2) {
+            // Show the overlay
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = 'flex';
+
+            // Show the images
+            const img1El = document.querySelector('#img1');
+            const img2El = document.querySelector('#img2');
+            img1El.src = img1;
+            img2El.src = img2;
+        }
+
+        function closeImage() {
+            // Hide the overlay
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = 'none';
+
+            // Clear the images
+            const img1El = document.querySelector('#img1');
+            const img2El = document.querySelector('#img2');
+            img1El.src = '';
+            img2El.src = '';
+        }
+        // document.getElementById("button1").addEventListener("click", displayImage);
+
+  function displayImage() {
+    // Get the image element
+    var img = document.getElementById("image");
+
+    // If the image is hidden, show it
+    if (img.style.display === "none") {
+      img.style.display = "block";
+    } 
+  }
+    </script>
+<!---->
+<section>
+<div class="box-shadow footerbox">
+    <h1 class="h1-info h1-font footer" id="contact-us-section">Contact Us</h1>
+    <div class="footerinfo">
+      <div>
+        <p class="pfooter"><span class="footerborder">Phone Number ~ 801-458-6203</span></p>
+      </div>
+      <div>
+        <p class="pfooter"><span class="footerborder">Email ~ travrum@gmail.com</span></p>
+      </div>
+    </div>
+</div>
+</section>
+<!---->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+.h1-font{
+font-family: 'Noto Serif Lao', serif;
+}
+                                        /*Fonts*/
+
+.title-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title{
+  background-color: gray;
+}
+header{
+  padding-top: 60px;
+}
+body{
+  background-color: gray;
+}
+.img-grid{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr  ;
+  grid-template-rows: 1fr;
+  padding: 60px;
+}
+.img-cell{
+  padding: 20px;
+  background-color: lightskyblue;
+}
+img{
+  border: solid;
+}
+h1{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
