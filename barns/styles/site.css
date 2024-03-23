@@ -1,0 +1,48 @@
+body{
+    background-color: lightslategray;
+}
+
+
+.part1{
+    padding: 5px;
+}
+.top{  
+   text-align: center;
+   padding: 5px;
+}
+a{
+    color: white;
+    border-bottom: solid black;
+    margin: 20px;
+}
+.timg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+.mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px;
+    
+    border-bottom: 2px solid black;
+}
+.mimg{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    box-shadow: 2px 2px 3px;
+}
+h1{
+    
+}
+p{
+    text-align: center;
+    
+}
+
+.bot{
+    
+}
