@@ -20,12 +20,18 @@ body{
 }
 a{
     color: white;
-    border-bottom: solid 3px black;
+    
     margin: 20px;
     text-decoration: none;
     font-size: 50px;
-    
 }
+
+a:hover {
+
+border: solid 3px black
+ }   
+    
+
 .timg{
     display: flex;
     justify-content: center;
@@ -49,8 +55,21 @@ a{
     box-shadow: 3px 3px 3px;
     margin: 5px auto;
 }
+.gmid {
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 2px;
+    padding: 15px 0;
+    border-bottom: 2px solid black;
+    place-items: center;
+}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
 }
 p{
     text-align: center;
@@ -61,3 +80,4 @@ p{
 .bot{
     
 }
+
